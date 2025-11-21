@@ -4,10 +4,10 @@ import { BENEFITS } from '../constants';
 
 const Benefits = () => {
   return (
-    <Section className="bg-gradient-to-b from-dark-950">
+    <Section className="bg-dark-950">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">
+            <h2 className="text-3xl md:text-5xl font-bold text-white mb-4 [text-wrap:balance]">
             Por que usar? <br className="md:hidden" />
             <span className="text-gold-500">Conheça os benefícios</span>
             </h2>
