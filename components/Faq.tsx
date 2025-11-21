@@ -8,7 +8,7 @@ const Faq = () => {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <Section className="bg-dark-900">
+    <Section className="bg-dark-950">
       <h2 className="text-3xl md:text-4xl font-bold text-white mb-12 text-center">
         Medos comuns <span className="text-gold-500">& Verdades</span>
       </h2>

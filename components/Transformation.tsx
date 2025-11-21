@@ -31,7 +31,7 @@ const Transformation = () => {
   const prev = () => setCurrentIndex((prev) => (prev - 1 + CASES.length) % CASES.length);
 
   return (
-    <Section className="bg-dark-900">
+    <Section className="bg-dark-950">
       <div className="text-center mb-10 md:mb-12">
         <h2 className="text-3xl md:text-5xl font-bold text-white mb-4">Transformações Reais</h2>
         <p className="text-gray-400 text-sm md:text-base max-w-[22rem] mx-auto md:max-w-none [text-wrap:balance]">
