@@ -20,7 +20,7 @@ const About = () => {
         </div>
 
         <div className="w-full md:w-2/3 text-center md:text-left">
-          <h2 className="text-3xl font-bold text-white mb-4">
+          <h2 className="text-3xl font-bold text-white mb-4 [text-wrap:balance]">
             Por que escolher o <span className="text-gold-500">Sr. Reis?</span>
           </h2>
           
@@ -50,7 +50,7 @@ const About = () => {
             <h4 className="text-sm uppercase tracking-wider text-gray-500 mb-4">Atendimento Presencial</h4>
             <div className="flex flex-wrap justify-center md:justify-start gap-3 md:gap-4">
                 {LOCATIONS.map(loc => (
-                    <span key={loc} className="flex items-center gap-2 px-4 py-2 bg-dark-900 rounded-full text-xs md:text-sm text-white border border-gray-800">
+                    <span key={loc} className="flex items-center gap-2 px-4 py-2 bg-dark-900 rounded-full text-xs md:text-sm text-white border border-gray-800 whitespace-nowrap">
                         <MapPin className="w-4 h-4 text-gold-500 shrink-0" />
                         {loc}
                     </span>

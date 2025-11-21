@@ -15,21 +15,21 @@ const Pricing = () => {
   return (
     <Section className="bg-dark-950">
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
+        <h2 className="text-3xl md:text-4xl font-bold text-white mb-6 [text-wrap:balance]">
           Quanto custa recuperar sua <span className="text-gold-500">Autoestima?</span>
         </h2>
-        <p className="text-lg md:text-xl text-gray-400 mb-10 md:mb-12 max-w-2xl mx-auto">
+        <p className="text-lg md:text-xl text-gray-400 mb-10 md:mb-12 max-w-2xl mx-auto [text-wrap:balance]">
           É menos sobre preço e mais sobre recuperar anos de confiança perdida.
           Trabalhamos com valores transparentes.
         </p>
 
         <div className="bg-black border border-gold-500/30 rounded-2xl p-6 md:p-12 relative overflow-hidden">
-          <div className="absolute top-0 right-0 bg-gold-500 text-black text-xs font-bold px-4 py-1 rounded-bl-lg">
+          <div className="absolute top-0 right-0 bg-gold-500 text-black text-xs font-bold px-4 py-1 rounded-bl-lg z-10">
             SR. REIS PROTESE CAPILAR
           </div>
           
           <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div className="text-left space-y-4">
+            <div className="text-left space-y-4 pt-8 md:pt-0">
                {features.map((feat, i) => (
                    <div key={i} className="flex items-center gap-3 text-gray-300">
                        <CheckCircle2 className="text-gold-500 w-5 h-5 shrink-0" />
