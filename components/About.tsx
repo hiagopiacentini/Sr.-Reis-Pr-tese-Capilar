@@ -5,7 +5,7 @@ import { LOCATIONS } from '../constants';
 
 const About = () => {
   return (
-    <Section className="bg-black">
+    <Section className="bg-black-950">
       <div className="flex flex-col md:flex-row gap-8 md:gap-12 items-center max-w-5xl mx-auto">
         
         <div className="w-full sm:w-2/3 md:w-1/3">
