@@ -10,7 +10,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-black">
+    <section className="relative h-screen w-full flex items-center justify-center overflow-hidden bg-black-950">
       {/* Premium Background Effects */}
       <div className="absolute inset-0 z-0 pointer-events-none">
         {/* Spotlight Gradient Effect (Top to Bottom) */}
